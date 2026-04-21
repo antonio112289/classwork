@@ -641,15 +641,6 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\"\"\)\] {
-    background-image: url("");
-  }
-  .bg-\[url\(\'\'\)\] {
-    background-image: url('');
-  }
-  .bg-\[url\(\'\.\.\/\'\)\] {
-    background-image: url('../');
-  }
   .bg-\[url\(\'\.\.\/BG\.png\'\)\] {
     background-image: url('../BG.png');
   }
