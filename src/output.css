@@ -580,6 +580,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
@@ -608,6 +611,9 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#\#094B72\] {
+    background-color: ##094B72;
+  }
   .bg-\[\#0a4d6e\] {
     background-color: #0a4d6e;
   }
@@ -635,11 +641,17 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\.\.\/BG\.png\'\)\] {
+    background-image: url('../BG.png');
+  }
   .bg-\[url\(\'\.\.\/Hero-Image\.png\'\)\] {
     background-image: url('../Hero-Image.png');
   }
   .bg-\[url\(\'\.\/\'\)\] {
     background-image: url('./');
+  }
+  .bg-\[url\(\'\.\/BG\.png\'\)\] {
+    background-image: url('./BG.png');
   }
   .bg-\[url\(\'\.\/Hero-Image\.png\'\)\] {
     background-image: url('./Hero-Image.png');
@@ -652,6 +664,9 @@
   }
   .bg-\[url\(\'\.\/Hero_Image\.png\'\)\] {
     background-image: url('./Hero_Image.png');
+  }
+  .bg-\[url\(\'\.\/bg-pattern\.png\'\)\] {
+    background-image: url('./bg-pattern.png');
   }
   .bg-\[url\(\'\.png\'\)\] {
     background-image: url('.png');
