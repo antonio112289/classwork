@@ -301,6 +301,9 @@
   .mt-\[00px\] {
     margin-top: 00px;
   }
+  .mt-\[10px\] {
+    margin-top: 10px;
+  }
   .mt-\[20px\] {
     margin-top: 20px;
   }
@@ -331,6 +334,27 @@
   .mt-\[400px\] {
     margin-top: 400px;
   }
+  .mr-\[0px\] {
+    margin-right: 0px;
+  }
+  .mr-\[100px\] {
+    margin-right: 100px;
+  }
+  .mr-\[400px\] {
+    margin-right: 400px;
+  }
+  .mr-\[500px\] {
+    margin-right: 500px;
+  }
+  .mr-\[680px\] {
+    margin-right: 680px;
+  }
+  .mr-\[700px\] {
+    margin-right: 700px;
+  }
+  .mr-\[800px\] {
+    margin-right: 800px;
+  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -343,8 +367,17 @@
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
+  .ml-\[0px\] {
+    margin-left: 0px;
+  }
   .ml-\[10px\] {
     margin-left: 10px;
+  }
+  .ml-\[400px\] {
+    margin-left: 400px;
+  }
+  .ml-\[1000px\] {
+    margin-left: 1000px;
   }
   .flex {
     display: flex;
@@ -375,6 +408,9 @@
   }
   .h-\[40px\] {
     height: 40px;
+  }
+  .h-\[50px\] {
+    height: 50px;
   }
   .h-\[60px\] {
     height: 60px;
@@ -465,6 +501,9 @@
   }
   .w-8 {
     width: calc(var(--spacing) * 8);
+  }
+  .w-\[50px\] {
+    width: 50px;
   }
   .w-\[77\=60px\] {
     width: 77=60px;
@@ -598,6 +637,9 @@
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
+  .gap-\[5px\] {
+    gap: 5px;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
@@ -615,6 +657,12 @@
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
+  }
+  .gap-\[px\] {
+    gap: px;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
@@ -784,11 +832,17 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
   .text-\[14px\] {
     font-size: 14px;
   }
   .text-\[16px\] {
     font-size: 16px;
+  }
+  .text-\[18px\] {
+    font-size: 18px;
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -846,6 +900,15 @@
   }
   .text-\[\#193E6C\] {
     color: #193E6C;
+  }
+  .text-\[\#66666\] {
+    color: #66666;
+  }
+  .text-\[\#666666\] {
+    color: #666666;
+  }
+  .text-\[\#\] {
+    color: #;
   }
   .text-\[\#fff\] {
     color: #fff;
